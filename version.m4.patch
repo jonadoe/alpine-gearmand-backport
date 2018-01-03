@@ -1,0 +1,5 @@
+--- a/version.m4
++++ b/version.m4
+@@ -1 +1 @@
+-m4_define([VERSION_NUMBER], m4_esyscmd_s([git describe --always]))
++m4_define([VERSION_NUMBER], [1.1.18])
